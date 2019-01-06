@@ -1,11 +1,11 @@
-import {Model, model, property} from '@loopback/repository';
+import {Entity, model, property} from '@loopback/repository';
 
 @model()
-export class Message extends Model {
+export class Message extends Entity {
   @property({
     type: 'string',
     id: true,
-    required: true,
+    required: false,
   })
   uuid: string;
 
@@ -17,13 +17,13 @@ export class Message extends Model {
 
   @property({
     type: 'date',
-    required: true,
+    required: false,
   })
   created_at: string;
 
   @property({
     type: 'string',
-    required: true,
+    required: false,
   })
   ip: string;
 

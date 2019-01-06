@@ -1,0 +1,6 @@
+{
+  "name": "sqlite",
+  "connector": "memory",
+  "localStorage": "tucao",
+  "file": "./dev.sqlite3"
+}

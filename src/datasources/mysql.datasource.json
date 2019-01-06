@@ -1,0 +1,10 @@
+{
+  "name": "mysql",
+  "connector": "mysql",
+  "url": "mysql://user:pass@127.0.0.1/tucao",
+  "host": "127.0.0.1",
+  "port": 3306,
+  "user": "user",
+  "password": "pass",
+  "database": "tucao"
+}
