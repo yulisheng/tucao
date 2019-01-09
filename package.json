@@ -56,8 +56,7 @@
     "@types/uuid": "^3.4.4",
     "fecha": "^3.0.2",
     "loopback-connector-mysql": "^5.3.1",
-    "loopback-connector-sqlite3": "^3.0.0",
-    "memory": "0.0.3"
+    "loopback-connector-sqlite3": "^3.0.0"
   },
   "devDependencies": {
     "@loopback/build": "^1.1.0",

@@ -484,6 +484,13 @@
   dependencies:
     "@types/node" "*"
 
+"@types/uuid@^3.4.4":
+  version "3.4.4"
+  resolved "https://npm.k8s.hipages.com.au/@types%2fuuid/-/uuid-3.4.4.tgz#7af69360fa65ef0decb41fd150bf4ca5c0cefdf5"
+  integrity sha512-tPIgT0GUmdJQNSHxp0X2jnpQfBSTfGxUMc/2CXBU2mnyTFVYVa2ojpoQ74w0U2yn2vw3jnC640+77lkFFpdVDw==
+  dependencies:
+    "@types/node" "*"
+
 abbrev@1:
   version "1.1.1"
   resolved "https://npm.k8s.hipages.com.au/abbrev/-/abbrev-1.1.1.tgz#f8f2c887ad10bf67f634f005b6987fed3179aac8"
@@ -666,6 +673,11 @@ better-ajv-errors@^0.5.2:
     json-to-ast "^2.0.3"
     jsonpointer "^4.0.1"
     leven "^2.1.0"
+
+bignumber.js@4.1.0:
+  version "4.1.0"
+  resolved "https://npm.k8s.hipages.com.au/bignumber.js/-/bignumber.js-4.1.0.tgz#db6f14067c140bd46624815a7916c92d9b6c24b1"
+  integrity sha512-eJzYkFYy9L4JzXsbymsFn3p54D+llV27oTQ+ziJG7WFRheJcNZilgVXMG0LoZtlQSKBsJdWtLFqOD0u+U0jZKA==
 
 bl@^2.0.1:
   version "2.1.2"
@@ -1221,6 +1233,11 @@ fast-json-stable-stringify@^2.0.0:
   version "2.0.0"
   resolved "https://npm.k8s.hipages.com.au/fast-json-stable-stringify/-/fast-json-stable-stringify-2.0.0.tgz#d5142c0caee6b1189f87d3a76111064f86c8bbf2"
   integrity sha1-1RQsDK7msRifh9OnYREGT4bIu/I=
+
+fecha@^3.0.2:
+  version "3.0.2"
+  resolved "https://npm.k8s.hipages.com.au/fecha/-/fecha-3.0.2.tgz#fb3adb02762ab6dd27f7d5419f2f6c21a4229cd7"
+  integrity sha512-oJK6YbKtmz1uvuDsUHOmo9X2HKmYAcRWtzW2yrCzOJRUfyGUEu/8cDymBdedgEnkdJiTpNyPogWqfTuYffU4yA==
 
 finalhandler@1.1.1:
   version "1.1.1"
@@ -1886,6 +1903,18 @@ lolex@^2.3.2, lolex@^2.7.5:
   resolved "https://npm.k8s.hipages.com.au/lolex/-/lolex-2.7.5.tgz#113001d56bfc7e02d56e36291cc5c413d1aa0733"
   integrity sha512-l9x0+1offnKKIzYVjyXU2SiwhXDLekRzKyhnbyldPHvC7BvLPVpdNUNR2KeMAiCN2D/kLNttZgQD5WjSxuBx3Q==
 
+loopback-connector-mysql@^5.3.1:
+  version "5.3.1"
+  resolved "https://npm.k8s.hipages.com.au/loopback-connector-mysql/-/loopback-connector-mysql-5.3.1.tgz#b549dd98ec1fa751a4cd6991a7dfd901467abbca"
+  integrity sha512-Htx4nMq/rSfcR8c/1Zikzh978ZAATUSWdDWmrk50+Xtc4Q7fKTlJnFId8/gg+N0tgDh54K1lcJeg7J9E/cd3sQ==
+  dependencies:
+    async "^2.6.1"
+    debug "^3.1.0"
+    lodash "^4.17.4"
+    loopback-connector "^4.0.0"
+    mysql "^2.11.1"
+    strong-globalize "^4.1.1"
+
 loopback-connector-sqlite3@^3.0.0:
   version "3.0.0"
   resolved "https://npm.k8s.hipages.com.au/loopback-connector-sqlite3/-/loopback-connector-sqlite3-3.0.0.tgz#f7881e6f4b135675acf4199d8b69c01d37bf6a95"
@@ -1898,7 +1927,7 @@ loopback-connector-sqlite3@^3.0.0:
     sqlite3 "^4.0.2"
     strong-globalize "^4.1.1"
 
-loopback-connector@^4.4.0, loopback-connector@^4.5.1:
+loopback-connector@^4.0.0, loopback-connector@^4.4.0, loopback-connector@^4.5.1:
   version "4.5.1"
   resolved "https://npm.k8s.hipages.com.au/loopback-connector/-/loopback-connector-4.5.1.tgz#98af49b2b4348fea2385023568c13df7973d21dc"
   integrity sha512-tgpOUIW7gPUHlp6yH0u8RSjl4zBmmRZCFy4dWrriniz8IadF5bSo06LOVTOJRtrsbuW8163d0o8W1dNKG7XDfA==
@@ -2154,6 +2183,16 @@ msgpack5@^4.2.0:
     inherits "^2.0.3"
     readable-stream "^2.3.6"
     safe-buffer "^5.1.2"
+
+mysql@^2.11.1:
+  version "2.16.0"
+  resolved "https://npm.k8s.hipages.com.au/mysql/-/mysql-2.16.0.tgz#b23b22ab5de44fc2d5d32bd4f5af6653fc45e2ba"
+  integrity sha512-dPbN2LHonQp7D5ja5DJXNbCLe/HRdu+f3v61aguzNRQIrmZLOeRoymBYyeThrR6ug+FqzDL95Gc9maqZUJS+Gw==
+  dependencies:
+    bignumber.js "4.1.0"
+    readable-stream "2.3.6"
+    safe-buffer "5.1.2"
+    sqlstring "2.3.1"
 
 nan@~2.10.0:
   version "2.10.0"
@@ -2689,7 +2728,7 @@ read-pkg@^3.0.0:
     normalize-package-data "^2.3.2"
     path-type "^3.0.0"
 
-readable-stream@^2.0.6, readable-stream@^2.3.5, readable-stream@^2.3.6:
+readable-stream@2.3.6, readable-stream@^2.0.6, readable-stream@^2.3.5, readable-stream@^2.3.6:
   version "2.3.6"
   resolved "https://npm.k8s.hipages.com.au/readable-stream/-/readable-stream-2.3.6.tgz#b11c27d88b8ff1fbe070643cf94b0c79ae1b0aaf"
   integrity sha512-tQtKA9WIAhBF3+VLAseyMqZeBjW0AHJoxOtYqSUZNJxauErmLbVm2FW1y+J/YA9dUrAC39ITejlZWhVIwawkKw==
@@ -3019,6 +3058,11 @@ sqlite3@^4.0.2:
     nan "~2.10.0"
     node-pre-gyp "^0.10.3"
     request "^2.87.0"
+
+sqlstring@2.3.1:
+  version "2.3.1"
+  resolved "https://npm.k8s.hipages.com.au/sqlstring/-/sqlstring-2.3.1.tgz#475393ff9e91479aea62dcaf0ca3d14983a7fb40"
+  integrity sha1-R1OT/56RR5rqYtyvDKPRSYOn+0A=
 
 sshpk@^1.7.0:
   version "1.16.0"
